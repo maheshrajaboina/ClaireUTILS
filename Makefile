@@ -6,7 +6,6 @@ CFLAGS = -Wall -g
 
 SRC = src/cat.c \
       src/true.c \
-      src/false.c \
       src/yes.c \
       src/wc.c \
       src/unlink.c \
@@ -17,10 +16,10 @@ SRC = src/cat.c \
       src/whoami.c \
       src/pwd.c \
       src/base32.c \
-      src/mkdir.c \
       src/mv.c \
       src/uname.c \
       src/id.c
+mahesh
 
 ALL_BIN = cat \
 	  true \
